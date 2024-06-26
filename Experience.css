@@ -1,0 +1,47 @@
+*{
+    background-color: beige;
+}
+h2{
+    color: rgb(215, 76, 12);
+}
+.box{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    background-color:wheat;
+    box-shadow: 2px 2px 5px black;
+    margin: 5px;
+}
+#circle:hover{
+    opacity:0.8;
+    border-radius: 50%;
+    background-color: rgb(240, 128, 128);
+    transition: border-radius, transform 2s ,2s ease-in ,ease-in 0.5s 0.5s ;
+    transform: translate(0px,200px)scale(1.5);
+    box-shadow: 5px 5px 10px black;
+}
+#square:hover{
+    opacity:0.8;
+    border-radius: 20px;
+    background-color: mediumaquamarine;
+    transition: border-radius, transform 2s ,2s ease-in ,ease-in 0.5s 0.5s ;
+    transform: translate(0px,200px) rotate(20deg);
+    box-shadow: 5px 5px 10px black;
+}
+#rectangle:hover{
+    opacity:0.8;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    transition: border-radius, transform 2s ,2s ease-in ,ease-in 0.5s 0.5s ;
+    transform: translate(0px,200px) scaleX(1.5) rotate(120deg);
+    box-shadow: 5px 5px 10px black;
+}
+#parallelogram:hover{
+    opacity:0.8;
+    border-radius: 10px;
+    background-color: plum;
+    transition: border-radius, transform 2s ,2s ease-in ,ease-in 0.5s 0.5s ;
+    transform: translate(15px,200px) skew(-20deg) rotate(45deg);
+    box-shadow: 5px 5px 10px black;
+}

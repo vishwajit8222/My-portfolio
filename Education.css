@@ -1,0 +1,13 @@
+*{
+    background-color: beige;
+}
+p{
+    line-height: 20px;
+}
+#title{
+    text-decoration: underline;
+}
+h2{
+    color: rgb(215, 76, 12);
+    font-family: arial;
+}

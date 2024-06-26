@@ -1,0 +1,152 @@
+#hrow{
+    height: 100px;
+    width: 98%;
+    background-color: #304d6dff;
+    text-align: right;
+    margin-top: -120px;
+    border-bottom-left-radius: 40px; 
+    border-bottom-right-radius: 40px;
+    position: fixed;
+}
+#hrow:hover{
+    transition: border 5s ease-in 0.5s;
+}
+h1{
+    margin-top: 10px;
+    margin-left: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Fredericka the Great', serif;
+    letter-spacing: 5px;
+}
+#aboutme{
+    height: 30px;
+    width: 100px;
+    margin:10px 10px 0px 0px;
+    background-color: gray;
+    color:white;
+    border: black 2px solid;
+    border-radius: 10px;
+}
+#aboutme:hover{
+    background-color: teal;
+    
+}
+#aboutme:active{
+    background-color:blue;
+}
+#skills{
+    height: 30px;
+    width: 100px;
+    margin:10px 10px 0px 0px;
+    background-color: gray;
+    color: white;
+    border: black 2px solid;
+    border-radius: 10px;
+}
+#skills:hover{
+    background-color: teal;
+}
+#skills:active{
+    background-color:blue;
+}
+#education{
+    height: 30px;
+    width: 100px;
+    margin:10px 10px 0px 0px;
+    background-color: gray;
+    color: white;
+    border: black 2px solid;
+    border-radius: 10px;
+}
+#education:hover{
+    background-color: teal;
+}
+#education:active{
+    background-color:blue;
+}
+#contacts{
+    height: 30px;
+    width: 120px;
+    margin:10px 20px 0px 0px;
+    background-color: gray;
+    color: white;
+    border: black 2px solid;
+    border-radius: 10px;
+}
+#contacts:hover{
+    background-color: teal;
+}
+#contacts:active{
+    background-color:blue;
+}
+#welcome{
+    color: darkblue;
+}
+
+#si{
+    height: 250px;
+    width: 500px;
+    border-radius: 50%;
+    background-image: url("si.jpg");
+    background-size: cover;
+}
+p{
+    text-align: justify;
+    color: black;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+.subtitle{
+    text-decoration: none;
+    background-color: gray;
+    line-height: 2;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 5px 40px 5px;
+    box-shadow: 2px 2px 5px black;
+}
+.subtitle:hover{
+    box-shadow: 5px 5px 10px teal;
+    background-color: teal;
+}
+.heading{
+    color: red;
+}
+#welcome{
+    margin-top: 120px;
+}
+h2{
+    color: white;
+}
+.subtitle:active{
+    background-color: blue;
+    box-shadow:5px 5px 10px blue;
+}
+a:hover{
+    color: blue !important;
+}
+a{
+    text-decoration: none;
+    color: darkblue;
+}
+#photo{
+    border: 2px solid gray;
+    height: 120px;
+    width: 120px;
+    border-radius: 5px;
+    padding:2px;
+    margin-right: 10px;
+    box-shadow: 3px 3px 8px black;
+}
+#photo:hover{
+    box-shadow: 3px 3px 8px teal;
+}
+footer{
+    background-color: darkcyan;
+    border-radius: 20px;
+    padding: 20px;
+}

@@ -1,0 +1,30 @@
+/* add style using External Stylesheet */
+h1{
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 10px;
+    font-family: cursive;
+}
+pre {
+    color: gray;
+    text-align: justify;
+    font-weight: bold;
+    text-decoration: green line-through;
+    line-height: 2;
+}
+p{
+    font-weight: 100;
+    text-decoration: wavy red overline;
+}
+
+button {
+    color: white;
+    background-color: blue;
+}
+
+a{
+    text-decoration: none;
+}
+input[type="submit"]{
+       background-color: aquamarine;
+}

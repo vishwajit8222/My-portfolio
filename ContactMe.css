@@ -1,0 +1,29 @@
+*{
+    background-color: beige;
+}
+h3{
+    color: rgb(215, 76, 12);
+}
+textarea{
+    background-color: lightcyan;
+}
+button{
+    background-color: blue;
+    color: white;
+}
+button:active{
+    background-color: red;
+}
+input:nth-of-type(1){
+    background-color: white;
+}
+input[type="submit"]{
+    background-color: blue;
+    color: white;
+}
+input[type="submit"]:active{
+    background-color: red;
+}
+option{
+    background-color: lightcyan;
+}
